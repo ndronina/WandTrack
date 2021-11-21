@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/app_description_text_view"
+            style="@style/Body.2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/size_16"
+            android:layout_marginTop="@dimen/size_16"
+            android:gravity="center"
+            android:text="@string/about_text" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/you_wish_button"
+            style="@style/ButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="@dimen/size_16"
+            android:layout_marginVertical="@dimen/size_16"
+            android:text="@string/you_wish" />
+
+        <com.princessleia.wandtrack.ui.wandtrack.WandTrackView
+            android:id="@+id/wand_track"
+            android:layout_width="@dimen/size_64"
+            android:layout_height="@dimen/size_64"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+    </LinearLayout>
+</ScrollView>
