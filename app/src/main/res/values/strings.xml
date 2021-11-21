@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Wand Track</string>
+    <string name="about_text">Clear mind, focus and precise incantation pronounce are always necessary for casting a good spell, but wand motion is not less important. Sometimes wand motions can be a bit tricky to remember and even the smallest wrong swish or flick can ruin the whole spell.
+        \n\nThis app will help you master the most famous spells with their canonical wand motions. You will get to explore some simple spells for everyday use together with advanced DADA practice spells. Also you can find a short description and history of every spell you will study. Now, wands at the ready!
+        \n\nScared, Potter?</string>
+    <string name="you_wish">You wish :)</string>
+    <string-array name="main_tabs">
+        <item>Spells</item>
+        <item>About</item>
+    </string-array>
 </resources>
