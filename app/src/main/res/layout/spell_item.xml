@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/spell_item_bg"
+    android:orientation="horizontal"
+    android:paddingVertical="@dimen/size_8"
+    android:paddingStart="@dimen/size_8"
+    android:paddingEnd="@dimen/size_16">
+
+    <com.princessleia.wandtrack.ui.wandtrack.WandTrackView
+        android:id="@+id/wand_track"
+        android:layout_width="@dimen/size_64"
+        android:layout_height="@dimen/size_64" />
+
+    <TextView
+        android:id="@+id/spell_item_text"
+        style="@style/Body.1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="@dimen/size_16"
+        tools:text="Expelliarmus" />
+</LinearLayout>
